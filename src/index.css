@@ -122,5 +122,8 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    letter-spacing: var(--tracking-normal);
   }
 }
