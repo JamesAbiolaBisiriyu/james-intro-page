@@ -4,6 +4,10 @@
 
 **URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
+## SCREENSHOT
+
+![Screenshot](./Screenshot%202026-03-03%20231347.png)
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
