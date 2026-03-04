@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
@@ -48,6 +49,18 @@ const Index = () => {
           <span className="text-foreground font-medium">inclusive</span> and{" "}
           <span className="text-foreground font-medium">a joy to navigate</span>.
         </motion.p>
+
+        {/* Call-to-action */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.65 }}
+          className="mt-8"
+        >
+          <Button size="lg" className="px-8">
+            View My Projects
+          </Button>
+        </motion.div>
 
         {/* Decorative line */}
         <motion.div
